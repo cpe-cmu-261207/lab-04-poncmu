@@ -4,6 +4,6 @@ export const CourseCard = (props) => {
   <p>{props.name}</p>
   <p>{props.grd}</p>
   <p>{props.crd}</p>
-  <button onClick = {() =>props.del(props.name)} > x </button>
+  <button onClick = {() =>props.del(props.name)} > Delete </button>
   </>;
 }
