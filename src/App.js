@@ -13,12 +13,12 @@ function App() {
    * Calculate the GPA of current courses
    * @returns the GPA of current courses
    */
-  function calculateGPA(cc) {
+  function calculateGPA(cGPA) {
     // TODO
     var gpa = 0
     var weight  = 0 
     var sum = 0
-    cc.forEach((item) => {
+    cGPA.forEach((item) => {
       switch(item.grd){
         case 'A' :
           gpa = 4
